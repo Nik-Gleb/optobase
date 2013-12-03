@@ -24,157 +24,69 @@
 /* norepeat-sprite */
 
 .norepeat_sprite {
-    background-image: url(../images/norep_spritesheet.png);
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;background-image:url(../images/norep_spritesheet.png);
 }
 
-.sprite-catalog_border_bottom_crn {
-    width: 24px;
-    height: 16px;
-    background-position: 0 0;
-}
-
-.sprite-catalog_border_top_crn {
-    width: 28px;
-    height: 14px;
-   	background-position: -24px 0;
-}
-
-.sprite-exit {
-    width: 16px;
-    height: 14px;
-    background-position: -52px 0;
-}
-
-.sprite-logo {
-    width: 239px;
-    height: 45px;
-    background-position: 0 -16px;
-}
-
-.sprite-search_bottom_left_crn {
-    width: 8px;
-    height: 14px;
-    background-position: -68px 0;
-}
-
-.sprite-search_btn {
-    width: 29px;
-    height: 28px;
-    background-position: 0 -61px;
-}
-
-.sprite-search_btn_left {
-    width: 2px;
-    height: 52px;
-    background-position: -29px -61px;
-}
-
-.sprite-search_btn_right {
-    width: 16px;
-    height: 52px;
-    background-position: -31px -61px;
-}
-
-.sprite-search_top_left_crn {
-    width: 8px;
-    height: 8px;
-    background-position: -76px 0;
-}
-
-.sprite-tool_tip_bl {
-    width: 18px;
-    height: 16px;
-    background-position: -84px 0;
-}
-
-.sprite-tool_tip_br {
-    width: 18px;
-    height: 16px;
-    background-position: -102px 0;
-}
-
-.sprite-tool_tip_crn {
-    width: 8px;
-    height: 8px;
-    background-position: -120px 0;
-}
-
-.sprite-tool_tip_tl {
-    width: 18px;
-    height: 16px;
-    background-position: -128px 0;
-}
-
-.sprite-tool_tip_tr {
-    width: 18px;
-    height: 16px;
-    background-position: -146px 0;
-}
+.ai_bg_bl {width:8px; height:8px; background-position: -60px -114px}
+.ai_bg_br {width:8px; height:8px; background-position: -149px -119px}
+.ai_bg_tl {width:8px; height:8px; background-position: -203px -113px}
+.ai_bg_tr {width:8px; height:8px; background-position: -191px -100px}
+.ai_label_action {width:100px; height:30px; background-position: -0px -84px}
+.ai_label_special {width:101px; height:39px; background-position: -0px -45px}
+.ai_price_bg_r {width:28px; height:47px; background-position: -178px -45px}
+.at_bg_l {width:8px; height:35px; background-position: -159px -91px}
+.at_bg_r {width:8px; height:35px; background-position: -230px -45px}
+.catalog_border_bottom_crn {width:24px; height:16px; background-position: -167px -92px}
+.catalog_border_top_crn {width:28px; height:14px; background-position: -0px -114px}
+.catalog_gray_marker {width:5px; height:9px; background-position: -144px -119px}
+.catalog_green_marker {width:5px; height:9px; background-position: -139px -119px}
+.catalog_title_bg_l {width:8px; height:35px; background-position: -222px -45px}
+.catalog_title_marker {width:9px; height:9px; background-position: -130px -119px}
+.dev_logo {width:77px; height:46px; background-position: -101px -45px}
+.exit {width:16px; height:14px; background-position: -28px -114px}
+.logo {width:239px; height:45px; background-position: -0px -0px}
+.radio_btn {width:30px; height:31px; background-position: -100px -91px}
+.radio_btn_marker {width:18px; height:18px; background-position: -222px -80px}
+.search_bottom_left_crn {width:8px; height:14px; background-position: -44px -114px}
+.search_btn {width:29px; height:28px; background-position: -130px -91px}
+.search_btn_left {width:2px; height:52px; background-position: -239px -0px}
+.search_btn_right {width:16px; height:52px; background-position: -206px -45px}
+.search_top_left_crn {width:8px; height:8px; background-position: -191px -92px}
+.tool_tip_bl {width:18px; height:16px; background-position: -221px -98px}
+.tool_tip_br {width:18px; height:16px; background-position: -203px -97px}
+.tool_tip_crn {width:8px; height:8px; background-position: -52px -114px}
+.tool_tip_tl {width:18px; height:16px; background-position: -185px -108px}
+.tool_tip_tr {width:18px; height:16px; background-position: -167px -108px}
 
 /* xrepeat-sprite */
 
 .xrepeat_sprite {
-    background-image: url(../images/xrep_spritesheet.png);
-    background-repeat: repeat-x;
+   background-repeat: repeat-x;background-image:url(../images/xrep_spritesheet.png);
 }
 
-.sprite-catalog_border_bottom_cnt {
-    height: 8px;
-    background-position: 0 0;
-}
-
-.sprite-search_bottom_cnt {
-    height: 14px;
-    background-position: 0 -8px;
-}
-
-.sprite-search_btn_cnt {
-    height: 52px;
-    background-position: 0 -22px;
-}
-
-.sprite-search_top_cnt {
-    height: 8px;
-    background-position: 0 -74px;
-}
-
-.sprite-tooltip_cb {
-    height: 16px;
-    background-position: 0 -82px;
-}
-
-.sprite-tooltip_ct {
-    height: 16px;
-    background-position: 0 -98px;
-}
+.ai_bg_bc {height: 8px; background-position: 0 0;}
+.ai_bg_tc {height: 8px;background-position: 0 -8px;}
+.ai_price_bg_c {height: 47px;background-position: 0 -16px;}
+.at_bg_c {height: 35px;background-position: 0 -63px;}
+.catalog_border_bottom_cnt {height: 8px;background-position: 0 -98px;}
+.search_bottom_cnt {height: 14px;background-position: 0 -106px;}
+.search_btn_cnt {height: 52px;background-position: 0 -120px;}
+.search_top_cnt {height: 8px;background-position: 0 -172px;}
+.tooltip_cb {height: 16px;background-position: 0 -180px;}
+.tooltip_ct {height: 16px;background-position: 0 -196px;}
 
 /* yrepeat-sprite */
 
 .yrepeat_sprite {
-    background-image: url(../images/yrep_spritesheet.png);
-    background-repeat: repeat-y;
+    background-repeat: repeat-y;background-image:url(../images/yrep_spritesheet.png);
 }
 
-.sprite-catalog_border_left_cnt {
-    width: 28px;
-    background-position: 0 0;
-}
-
-.sprite-search_left_cnt {
-    width: 8px;
-    background-position: -28px 0;
-}
-
-.sprite-tool_tip_cl {
-    width: 18px;
-    background-position: -36px 0;
-}
-
-.sprite-tool_tip_cr {
-    width: 18px;
-    background-position: -54px 0;
-}
+.ai_bg_lc {width: 8px;background-position: 0 0;}
+.ai_bg_rc {width: 8px;background-position: -8px 0;}
+.catalog_border_left_cnt {width: 28px;background-position: -16px 0;}
+.search_left_cnt {width: 8px;background-position: -44px 0;}
+.tool_tip_cl {width: 18px;background-position: -52px 0;}
+.tool_tip_cr {width: 18px;background-position: -70px 0;}
 
 /* xyrepeat-sprite */
 
