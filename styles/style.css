@@ -133,3 +133,113 @@
 											ElFTkSuQmCC");
 }
 
+.table_tl {
+	width: 8px; height: 8px;
+	background-image: url("../res/norepeat/search_top_left_crn.png");
+    background-repeat: no-repeat;
+}
+
+.table_tc {
+	background-image: url("../res/xrepeat/search_top_cnt.png");
+    background-repeat: repeat-x;
+}
+
+.table_cl {
+	background-image: url("../res/yrepeat/search_left_cnt.png");
+    background-repeat: repeat-y;
+}
+
+.table_cc {
+	background-color: #FFFFFF;
+	width: 256px;
+	height: 30px;
+}
+
+.table_bl {
+	height: 14px;
+	background-image: url("../res/norepeat/search_bottom_left_crn.png");
+    background-repeat: no-repeat;
+}
+
+.table_bc {
+	background-image: url("../res/xrepeat/search_bottom_cnt.png");
+    background-repeat: repeat-x;
+}
+
+.table_btn_left {
+	width: 2px;
+	background-image: url("../res/norepeat/search_btn_left.png");
+    background-repeat: no-repeat;
+}
+
+.table_btn_cnt {
+	width: 256px;
+	background-image: url("../res/xrepeat/search_btn_cnt.png");
+    background-repeat: repeat-x;
+}
+
+.table_btn_right {
+	width: 16px;
+	background-image: url("../res/norepeat/search_btn_right.png");
+    background-repeat: no-repeat;
+}
+
+.tt_tl {
+	width: 18px; height: 16px;
+	background-image: url("../res/norepeat/tool_tip_tl.png");
+    background-repeat: no-repeat;
+}
+
+.tt_tc {
+	width: 18px;
+	background-image: url("../res/xrepeat/tooltip_ct.png");
+    background-repeat:repeat-x;
+}
+
+.tt_tr {
+	width: 18px;
+	background-image: url("../res/norepeat/tool_tip_tr.png");
+    background-repeat: no-repeat;
+}
+
+.tt_cl {
+	width: 18px;
+	background-image: url("../res/yrepeat/tool_tip_cl.png");
+    background-repeat: repeat-y;
+}
+
+.tt_cc {
+	width: 18px; height: 24px;
+	background-color: #787777;
+}
+
+.tt_cr {
+	width: 18px;
+	background-image: url("../res/yrepeat/tool_tip_cr.png");
+   	background-repeat: repeat-y;
+}
+
+.tt_bl {
+	height: 16px;
+	background-image: url("../res/norepeat/tool_tip_bl.png");
+    background-repeat: no-repeat;
+}
+
+.tt_bc {
+	background-image: url("../res/xrepeat/tooltip_cb.png");
+    background-repeat:repeat-x;
+}
+
+.tt_br {
+	background-image: url("../res/norepeat/tool_tip_br.png");
+   	background-repeat: no-repeat;
+}
+
+.tt_crn {
+	width: 8px; height: 8px;
+	background-image: url("../res/norepeat/tool_tip_crn.png");
+   	background-repeat: no-repeat;
+   	margin-left: 16px;
+}
+
+
